@@ -1,8 +1,6 @@
 # E-paper-TaskList
 
-My Schedule List created with Waveshare 7.5inch e-paper and RaspberryPi zero.
-
-RaspberryPiと Waveshare e-paper 7.5inchを使用して予定表を表示する
+RaspberryPiと Waveshare e-paper 7.5inchを使用して予定表を表示するプロジェクトです。
 
 ## Usage
 
@@ -19,9 +17,15 @@ $ python3 create_image.py
 
 ```
 
+バッチファイルを実行すると、電子ペーパーに反映されます。
+```sh
+$ bash run.sh
+```
+
+
 
 
 ## License
-Copyright (c) 2022 NoTiger
+Copyright (c) 2022 Tiger
 
 This software is released under the MIT License, see LICENSE.
